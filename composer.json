@@ -1,0 +1,38 @@
+{
+  "name": "calvient/fhir-types",
+  "description": "FHIR R4 and DSTU2 Types for Laravel",
+  "keywords": [
+    "laravel",
+    "typescript",
+    "fhir-types"
+  ],
+  "homepage": "https://github.com/calvient/fhir-types",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Minson",
+      "email": "jonathan@calvient.com",
+      "role": "Lead Marshwiggle"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Calvient\\FhirTypes\\": "src"
+    }
+  },
+  "scripts": {
+    "stan": "vendor/bin/phpstan analyse",
+    "test": "./vendor/bin/testbench package:test --parallel --no-coverage",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
