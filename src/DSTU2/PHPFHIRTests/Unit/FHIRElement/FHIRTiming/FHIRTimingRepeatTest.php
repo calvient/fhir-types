@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRTiming;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRTiming;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRTiming;
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRTiming\FHIRTimingRepeat;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRTiming\FHIRTimingRepeat;
 
 /**
  * Class FHIRTimingRepeatTest

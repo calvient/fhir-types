@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2;
+namespace Calvient\FhirTypes\DSTU2;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,7 +62,7 @@ namespace App\Types\FHIR\DSTU2;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
 
 /**
  * Base definition for all elements in a resource.

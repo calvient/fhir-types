@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAllergyIntolerance;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAllergyIntolerance;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,17 +62,17 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAllergyIntole
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAllergyIntoleranceCertainty;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAllergyIntoleranceSeverity;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAnnotation;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAllergyIntoleranceCertainty;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAllergyIntoleranceSeverity;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAnnotation;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Risk of harmful or undesirable, physiological response which is unique to an

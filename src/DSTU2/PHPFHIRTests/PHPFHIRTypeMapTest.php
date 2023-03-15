@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -61,7 +61,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests;
  *   any profiles that apply to the resources in order to make a conformant implementation.
  *
  */
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 use PHPUnit\Framework\TestCase;
 
 /**

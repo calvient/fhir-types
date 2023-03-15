@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRGroup;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRGroup;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRGroup\FHIRGroupCharacteristic;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRGroup\FHIRGroupCharacteristic;
 
 /**
  * Class FHIRGroupCharacteristicTest

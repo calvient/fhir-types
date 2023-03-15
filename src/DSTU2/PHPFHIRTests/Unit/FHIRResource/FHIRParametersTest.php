@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRResource;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRResource;
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRParameters;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRParameters;
 
 /**
  * Class FHIRParametersTest

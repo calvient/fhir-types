@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRElementDefinition;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRElementDefinition;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRElementDefiniti
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionSlicing;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionSlicing;
 
 /**
  * Class FHIRElementDefinitionSlicingTest

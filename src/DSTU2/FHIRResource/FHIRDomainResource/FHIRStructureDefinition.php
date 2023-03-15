@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,29 +62,29 @@ namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionContact;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionDifferential;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionMapping;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionSnapshot;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBoolean;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCoding;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtensionContext;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRIdentifier;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRNarrative;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRStructureDefinitionKind;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionContact;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionDifferential;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionMapping;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRStructureDefinition\FHIRStructureDefinitionSnapshot;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBoolean;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCoding;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtensionContext;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRIdentifier;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRNarrative;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRStructureDefinitionKind;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * A definition of a FHIR structure. This resource is used to describe the

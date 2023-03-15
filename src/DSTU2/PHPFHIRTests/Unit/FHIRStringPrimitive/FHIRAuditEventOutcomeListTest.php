@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRStringPrimitive;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRStringPrimitive;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRStringPrimitive;
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRStringPrimitive\FHIRAuditEventOutcomeList;
+use Calvient\FhirTypes\DSTU2\FHIRStringPrimitive\FHIRAuditEventOutcomeList;
 
 /**
  * Class FHIRAuditEventOutcomeListTest

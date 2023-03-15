@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRStringPrimitive;
+namespace Calvient\FhirTypes\DSTU2\FHIRStringPrimitive;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,9 +62,9 @@ namespace App\Types\FHIR\DSTU2\FHIRStringPrimitive;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRStringPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRStringPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Class FHIRDocumentModeList

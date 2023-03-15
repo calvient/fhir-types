@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRPerson;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRPerson;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPerson\FHIRPersonLink;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPerson\FHIRPersonLink;
 
 /**
  * Class FHIRPersonLinkTest

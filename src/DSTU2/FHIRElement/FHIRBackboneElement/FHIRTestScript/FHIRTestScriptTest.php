@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRTestScript;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRTestScript;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,12 +62,12 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRTestScript;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * TestScript is a resource that specifies a suite of tests against a FHIR server

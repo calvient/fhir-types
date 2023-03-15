@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,21 +62,21 @@ namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventEvent;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventObject;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventParticipant;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventSource;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRNarrative;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventEvent;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventObject;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventParticipant;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRAuditEvent\FHIRAuditEventSource;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRNarrative;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * A record of an event made for purposes of maintaining a security log. Typical

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRProcessRequest;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement\FHIRProcessRequest;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement\FHIRBackboneElement
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRProcessRequest\FHIRProcessRequestItem;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRProcessRequest\FHIRProcessRequestItem;
 
 /**
  * Class FHIRProcessRequestItemTest

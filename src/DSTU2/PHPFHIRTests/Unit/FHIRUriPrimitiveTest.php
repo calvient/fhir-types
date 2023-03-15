@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit;
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRUriPrimitive;
+use Calvient\FhirTypes\DSTU2\FHIRUriPrimitive;
 
 /**
  * Class FHIRUriPrimitiveTest

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,32 +62,32 @@ namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAddress;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAttachment;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientAnimal;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientCommunication;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientContact;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientLink;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBoolean;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRContactPoint;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDate;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRHumanName;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRIdentifier;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRInteger;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRNarrative;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRReference;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAddress;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAttachment;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientAnimal;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientCommunication;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientContact;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRPatient\FHIRPatientLink;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBoolean;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRContactPoint;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDate;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRHumanName;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRIdentifier;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRInteger;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRNarrative;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRReference;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * Demographics and other administrative information about an individual or animal

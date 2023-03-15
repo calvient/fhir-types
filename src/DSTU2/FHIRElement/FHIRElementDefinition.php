@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,16 +62,16 @@ namespace App\Types\FHIR\DSTU2\FHIRElement;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionBase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionBinding;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionConstraint;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionMapping;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionSlicing;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionType;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionBase;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionBinding;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionConstraint;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionMapping;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionSlicing;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition\FHIRElementDefinitionType;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Captures constraints on each element within the resource, profile, or extension.

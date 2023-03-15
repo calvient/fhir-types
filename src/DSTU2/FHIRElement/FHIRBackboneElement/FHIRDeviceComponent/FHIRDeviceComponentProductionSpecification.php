@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceComponent;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceComponent;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,14 +62,14 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceCompone
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRIdentifier;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRIdentifier;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Describes the characteristics, operational status and capabilities of a

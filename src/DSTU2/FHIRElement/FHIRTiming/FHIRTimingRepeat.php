@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRTiming;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRTiming;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,18 +62,18 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRTiming;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDecimal;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIREventTiming;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRInteger;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRPeriod;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantity\FHIRDuration;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRRange;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUnitsOfTime;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDecimal;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIREventTiming;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRInteger;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRPeriod;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRQuantity\FHIRDuration;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRRange;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUnitsOfTime;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Specifies an event that may occur multiple times. Timing schedules are used to

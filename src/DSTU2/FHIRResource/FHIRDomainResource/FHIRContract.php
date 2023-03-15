@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,30 +62,30 @@ namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAttachment;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractActor;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractFriendly;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractLegal;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractRule;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractSigner;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractTerm;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractValuedItem;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRIdentifier;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRNarrative;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRPeriod;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRReference;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAttachment;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractActor;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractFriendly;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractLegal;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractRule;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractSigner;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractTerm;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRContract\FHIRContractValuedItem;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRIdentifier;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRNarrative;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRPeriod;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRReference;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * A formal agreement between parties regarding the conduct of business, exchange

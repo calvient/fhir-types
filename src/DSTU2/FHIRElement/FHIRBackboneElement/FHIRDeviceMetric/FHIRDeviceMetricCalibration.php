@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceMetric;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceMetric;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,14 +62,14 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRDeviceMetric;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDeviceMetricCalibrationState;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDeviceMetricCalibrationType;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRInstant;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDeviceMetricCalibrationState;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDeviceMetricCalibrationType;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRInstant;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Describes a measurement, calculation or setting capability of a medical device.

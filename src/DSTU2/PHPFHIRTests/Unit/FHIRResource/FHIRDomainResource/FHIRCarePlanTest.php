@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRResource\FHIRDomainResource
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource\FHIRCarePlan;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource\FHIRCarePlan;
 
 /**
  * Class FHIRCarePlanTest

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantity;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRQuantity;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,16 +62,16 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantity;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDecimal;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantity;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantityComparator;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDecimal;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRQuantity;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRQuantityComparator;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
 
 /**
  * Class FHIRDuration

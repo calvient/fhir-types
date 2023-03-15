@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,29 +62,29 @@ namespace App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceContact;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceDocument;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceImplementation;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceMessaging;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceRest;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceSoftware;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBoolean;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRConformanceStatementKind;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRNarrative;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRReference;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUnknownContentCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceContact;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceDocument;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceImplementation;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceMessaging;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceRest;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRConformance\FHIRConformanceSoftware;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBoolean;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRConformanceStatementKind;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRNarrative;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRReference;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUnknownContentCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * A conformance statement is a set of capabilities of a FHIR Server that may be

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRParameters;
+namespace Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement\FHIRParameters;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -62,48 +62,48 @@ namespace App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement\FHIRParameters;
  *
  */
 
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAddress;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAnnotation;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRAttachment;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBackboneElement;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBase64Binary;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRBoolean;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCode;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCodeableConcept;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRCoding;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRContactPoint;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDate;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDateTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDecimal;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRElementDefinition;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRExtension;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRHumanName;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRId;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRIdentifier;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRInstant;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRInteger;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMarkdown;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRMeta;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIROid;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRPeriod;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRPositiveInt;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRQuantity;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRRange;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRRatio;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRReference;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRSampledData;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRSignature;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRString;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRTime;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRTiming;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUnsignedInt;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUri;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRUuid;
-use App\Types\FHIR\DSTU2\FHIRIdPrimitive;
-use App\Types\FHIR\DSTU2\PHPFHIRConstants;
-use App\Types\FHIR\DSTU2\PHPFHIRContainedTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeInterface;
-use App\Types\FHIR\DSTU2\PHPFHIRTypeMap;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAddress;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAnnotation;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRAttachment;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBackboneElement;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBase64Binary;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRBoolean;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCode;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCodeableConcept;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRCoding;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRContactPoint;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDate;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDateTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDecimal;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRElementDefinition;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRExtension;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRHumanName;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRId;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRIdentifier;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRInstant;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRInteger;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMarkdown;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRMeta;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIROid;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRPeriod;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRPositiveInt;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRQuantity;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRRange;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRRatio;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRReference;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRSampledData;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRSignature;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRString;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRTime;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRTiming;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUnsignedInt;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUri;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRUuid;
+use Calvient\FhirTypes\DSTU2\FHIRIdPrimitive;
+use Calvient\FhirTypes\DSTU2\PHPFHIRConstants;
+use Calvient\FhirTypes\DSTU2\PHPFHIRContainedTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeInterface;
+use Calvient\FhirTypes\DSTU2\PHPFHIRTypeMap;
 
 /**
  * This special resource type is used to represent an operation request and

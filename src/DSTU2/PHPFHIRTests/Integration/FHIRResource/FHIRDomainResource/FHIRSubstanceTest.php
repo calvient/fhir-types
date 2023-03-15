@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Integration\FHIRResource\FHIRDomainResource;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Integration\FHIRResource\FHIRDomainResource;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,9 +63,9 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Integration\FHIRResource\FHIRDomainR
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRDomainResource\FHIRSubstance;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRDomainResource\FHIRSubstance;
 use PHPUnit\Framework\AssertionFailedError;
-use App\Types\FHIR\DSTU2\FHIRResource\FHIRBundle;
+use Calvient\FhirTypes\DSTU2\FHIRResource\FHIRBundle;
 
 /**
  * Class FHIRSubstanceTest

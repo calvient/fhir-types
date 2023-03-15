@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement;
+namespace Calvient\FhirTypes\DSTU2\PHPFHIRTests\Unit\FHIRElement;
 
 /*!
  * This class was generated with the PHPFHIR library (https://github.com/dcarbone/php-fhir) using
@@ -63,7 +63,7 @@ namespace App\Types\FHIR\DSTU2\PHPFHIRTests\Unit\FHIRElement;
  */
 
 use PHPUnit\Framework\TestCase;
-use App\Types\FHIR\DSTU2\FHIRElement\FHIRDaysOfWeek;
+use Calvient\FhirTypes\DSTU2\FHIRElement\FHIRDaysOfWeek;
 
 /**
  * Class FHIRDaysOfWeekTest
